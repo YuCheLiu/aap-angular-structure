@@ -1,0 +1,28 @@
+<p>Different between reactive forms and template-driven forms</p>
+<iframe class="embed-responsive-item" 
+width="600" height="550"src="https://angular.io/guide/forms-overview#key-differences" title="W3Schools Free Online Web Tutorials"></iframe>
+<hr>
+
+
+
+<h2>1. using reactive forms</h2>
+<p>Favorite Color:</p> 
+<input type="text" [formControl]="favoriteColorControl" ><br>
+<hr>
+<h3>user input: {{favoriteColorControl.value}}</h3>
+
+
+
+
+<hr>
+
+
+
+<h2>2. using template-driven forms</h2>
+<p>Color: </p>
+<input type="text" [(ngModel)]="favoriteColora">
+<hr>
+<h3>user input: {{favoriteColora}}</h3>
+
+
+<hr>
